@@ -17,14 +17,17 @@
         "Vulpix","Ninetales","Jigglypuff","Wigglytuff"
         ];
 
-        var galleryDiv=document.getElementById("image-galery");
-        for (var i = 0; i < images.length; i++) {
-            var img = document.createElement("img");
-            img.src = "images/Gen1/" + images[i] + ".png";
-            img.width = 64;
-            img.height = 64;
-            galleryDiv.appendChild(img);
-        }
+        document.addEventListener("DOMContentLoaded", function() {
+            var galleryDiv = document.getElementById("image-gallery");
+
+            for (var i = 0; i < images.length; i++) {
+                var img = document.createElement("img");
+                img.src = "images/Gen1/" + images[i] + ".png";
+                img.width = 64;
+                img.height = 64;
+                galleryDiv.appendChild(img);
+            }
+        });
     </script>
 </body>
 </html>

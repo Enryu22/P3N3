@@ -9,7 +9,7 @@
     <div id="image-gallery"></div>
     
     <script>
-        var images=[
+        var gen1=[
         "Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise",
         "Caterpie","Metapod","Butterfree","Weedle","Kakuna","Beedrill","Pidgey","Pidgeotto","Pidgeot",
         "Rattata","Raticate","Spearow","Fearow","Ekans","Arbok","Pikachu","Raichu","Sandshrew","Sandslash",
@@ -27,12 +27,23 @@
         "Porygon","Omanyte","Omastar","Kabuto","Kabutops","Aerodactyl","Snorlax","Articuno","Zapdos","Moltres",
         "Dratini","Dragonair","Dragonite","Mewtwo","Mew"    
         ];
+        var gen2=[
+        "Chikorita","Bayleef","Meganium"
+        ]
         document.addEventListener("DOMContentLoaded", function() {
             var galleryDiv = document.getElementById("image-gallery");
 
-            for (var i = 0; i < images.length; i++) {
+            for (var i = 0; i < gen1.length; i++) {
                 var img = document.createElement("img");
-                img.src = "images/Gen1/" + images[i] + ".png";
+                img.src = "images/Gen1/" + gen1[i] + ".png";
+                img.width = 64;
+                img.height = 64;
+                galleryDiv.appendChild(img);
+            }
+
+            for (var i = 0; i < gen2.length; i++) {
+                var img = document.createElement("img");
+                img.src = "images/Gen2" + gen2[i] + ".png";
                 img.width = 64;
                 img.height = 64;
                 galleryDiv.appendChild(img);

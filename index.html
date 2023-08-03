@@ -6,25 +6,23 @@
 </head>
 <body>
     <h1>Mega Moemon Pokedex</h1>
-    <img src="images/Gen1/Bulbasaur.png" width="64" height="64">
-    <img src="images/Gen1/Ivysaur.png" width="64" height="64">
-    <img src="images/Gen1/Venusaur.png" width="64" height="64">
-    <img src="images/Gen1/Charmander.png" width="64" height="64">
-    <img src="images/Gen1/Charmeleon.png" width="64" height="64">
-    <img src="images/Gen1/Charizard.png" width="64" height="64">
-    <img src="images/Gen1/Caterpie.png" width="64" height="64">
-    <img src="images/Gen1/Metapod.png" width="64" height="64">
-    <img src="images/Gen1/Butterfree.png" width="64" height="64">
-    <img src="images/Gen1/Weedle.png" width="64" height="64">
-    <img src="images/Gen1/Kakuna.png" width="64" height="64">
-    <img src="images/Gen1/Beedrill.png" width="64" height="64">
-    <img src="images/Gen1/Pidgey.png" width="64" height="64">
-    <img src="images/Gen1/Pidgeotto.png" width="64" height="64">
-    <img src="images/Gen1/Pidgeot.png" width="64" height="64">
-    <img src="images/Gen1/Rattata.png" width="64" height="64">
-    <img src="images/Gen1/Raticate.png" width="64" height="64">
-    <img src="images/Gen1/Spearow.png" width="64" height="64">
-    <img src="images/Gen1/Fearow.png" width="64" height="64">
-    <!-- Agrega más imágenes aquí -->
+    <div id="image-gallery"></div>
+    
+    <script>
+        var images=[
+        "Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise",
+        "Caterpie","Metapod","Butterfree","Weedle","Kakuna","Beedrill","Pidgey","Pidgeotto","Pidgeot",
+        "Rattata","Raticate","Spearow","Fearow"
+        ];
+
+        var galleryDiv=document.getElementById("image-galery");
+        for (var i = 0, i < images.length; i++) {
+            var img = document.createElement("img");
+            img.src = "images/Gen1/" + images[i] + ".png";
+            img.width = 64;
+            img.height = 64;
+            galleryDiv.appendChild(img);
+        }
+    </script>
 </body>
 </html>

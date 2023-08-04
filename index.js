@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Togepi","Togetic","Natu","Xatu","Mareep","Flaaffy","Ampharos","Marill","Azumarill","Sudowoodo",
         "Hoppip","Skiploom","Jumpluff","Aipom","Sunkern","Sunflora","Yanma","Wooper","Quagsire",
         "Murkrow","Misdreavus","Unown","Wobbuffet","Girafarig","Pineco","Forretress","Dunsparce","Gligar",
-        "Snubbull","Granbull","Qwilfish","Schukle","Heracross","Sneasel","Teddiuras","Ursaring","Slugma","Magcargo",
+        "Snubbull","Granbull","Qwilfish","Shuckle","Heracross","Sneasel","Teddiursa","Ursaring","Slugma","Magcargo",
         "Swinub","Piloswine","Corsola","Remoraid","Octillery","Delibird","Mantine","Skarmory","Houndour","Houndoom",
         "Phanpy","Donphan","Stantler","Smeargle","Miltank","Raikou","Entei","Suicune","Larvitar","Pupitar","Tyranitar",
         "Lugia","Ho-oh","Celebi"

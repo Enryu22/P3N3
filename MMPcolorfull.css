@@ -14,3 +14,15 @@
 h1 {
     text-align: center;
 }
+
+/* Estilos para el contenedor */
+.pokemon-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para el texto debajo de la imagen */
+.pokemon-name {
+    margin-top: 5px;
+    font-weight: bold;
+}

@@ -68,11 +68,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    var allStuff = gen1.concat(gen2).concat(gen3); // Combinar los dos arrays en uno solo
+    var allStuff = gen1.concat(gen2).concat(gen3); // Combinar los arrays en uno solo
 
     for (var i = 0; i < allStuff.length; i++) {
-        var img = document.createElement("img");
+        var container = document.createElement("div");
+        container.className = "pokemon-container"; // Asignar la clase para el estilo
 
+        var img = document.createElement("img");
         var element = allStuff[i];
         var imagePath = elementImageMap[element];
 
@@ -86,8 +88,14 @@ document.addEventListener("DOMContentLoaded", function() {
             img.src = "images/Gen3/" + element + ".png";
         }
 
+        var name = document.createElement("p");
+        name.className = "pokemon-name"; // Asignar la clase para el estilo
+        name.textContent = allStuff[i]; // Texto del nombre del Pokémon
+
         img.width = 64;
         img.height = 64;
-        galleryDiv.appendChild(img);
+        container.appendChild(img);
+        container.appendChild(name); // Agregar el nombre al contenedor
+        galleryDiv.appendChild(container); // Agregar el contenedor a la galería
     }
 });

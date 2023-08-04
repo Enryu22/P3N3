@@ -1,35 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     var galleryDiv = document.getElementById("image-gallery");
-
-//     var gen1 = [
-//         "Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise",
-//         "Caterpie","Metapod","Butterfree","Weedle","Kakuna","Beedrill","Pidgey","Pidgeotto","Pidgeot","Rattata","Raticate",
-//         "Spearow","Fearow","Ekans","Arbok","Pikachu","Raichu"
-//     ];
-
-//     var gen2 = [
-//         "Chikorita","Bayleef","Meganium","Cyndaquil","Quilava","Typhlosion","Totodile","Croconaw","Feraligatr",
-//         "Sentret","Furret","Hoothoot","Noctowl","Ledyba","Ledian","Spinarak","Ariados","Crobat","Pichu"
-//     ];  
-
-//     var allStuff = gen1.concat(gen2); // Combinar los dos arrays en uno solo
-
-//     for (var i = 0; i < allStuff.length; i++) {
-//         var img = document.createElement("img");
-        
-//         if (gen1.indexOf(allStuff[i]) !== -1) {
-//             img.src = "images/Gen1/" + allStuff[i] + ".png";
-//         } else if (gen2.indexOf(allStuff[i]) !== -1) {
-//             img.src = "images/Gen2/" + allStuff[i] + ".png";
-//         }
-        
-//         img.width = 64;
-//         img.height = 64;
-//         galleryDiv.appendChild(img);
-
-//     }
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
     var galleryDiv = document.getElementById("image-gallery");
 

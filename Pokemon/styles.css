@@ -9,13 +9,18 @@ img{
     width: 200px;
     height: 200px;
 }
-
+h4{
+    text-align: center;
+    margin: 0;
+    color: white;
+}
 .container{
     background: #202020;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 25px;
     height: 100vh;
 }
 

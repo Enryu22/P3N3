@@ -1,19 +1,47 @@
 body{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: black;
+}
+header nav{
+    background-color: #202020;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:gray;
+}
+.pokeball{
+    display: flex;
+    align-items: center;
+}
+.pokeball img{
+    height: 30px;
+    width: 30px;
 }
 
 img{
     width: 200px;
     height: 200px;
 }
-h4{
+.title{
+    color: white;
+    text-align: center;
+}
+.name{
     text-align: center;
     margin: 0;
     color: white;
+    font-size: large;
 }
+
 .container{
     background: #202020;
     display: flex;
@@ -22,6 +50,7 @@ h4{
     flex-wrap: wrap;
     gap: 25px;
     height: 100vh;
+    position: relative;
 }
 
 .bulbasaur{

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0F0F0F;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header nav{
+    background-color: #202020;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 30px;
+}
+.Pokemon,.Moemon,.Rule34{
+    display: flex;
+    align-items: center;
+}
+.Pokemon img,.Moemon img,.Rule34 img{
+    height: 30px;
+}
+nav a h2:hover{
+    color: grey;
+}
+@media screen and (mid-width: 680px) {
+    header nav a h2{
+        flex-direction: column;
+    }
+}

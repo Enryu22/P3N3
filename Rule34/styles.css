@@ -1,0 +1,11 @@
+body{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+.RukiaKuchiki{
+    display: flex;
+    flex-direction: column;
+    color: green;
+}

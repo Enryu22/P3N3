@@ -1,0 +1,81 @@
+body{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    background: #202020;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.bulbasaur{
+    background: #6EA598;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.ivysaur{
+    background: #89C7CD;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.venusaur{
+    background: #46A2A3;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.charmander{
+    background: #F4B186;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.charmeleon{
+    background: #EF8A78;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.charizard{
+    background: #FAA86B;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.squirtle{
+    background: #83C6D5;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.wartortle{
+    background: #B6C6E7;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.blastoise{
+    background: #84ACD8;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}

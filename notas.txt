@@ -1,0 +1,10 @@
+etqiuetas que no llevan cierre
+*br - salto de línea
+*img - imágenes
+*link - links de paginas //no paginas web
+*hr - dibujar línea separadora
+
+Usar {span} para resaltar cosas
+
+Flexbox:
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox

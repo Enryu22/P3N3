@@ -19,10 +19,20 @@ h1 {
 .pokemon-container {
     text-align: center;
     margin: 20px;
+    /* background-color: lightgray; */
+    width: 100px;
+    height: 100px;
 }
 
 /* Estilos para el texto debajo de la imagen */
 .pokemon-name {
     margin-top: 5px;
     font-weight: bold;
+}
+
+body{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
 }

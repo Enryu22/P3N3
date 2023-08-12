@@ -19,11 +19,11 @@ header nav{
     align-items: center;
     min-height: 30px;
 }
-.Pokemon,.Moemon,.Rule34{
+.Pokemon,.Moemon,.Anilist{
     display: flex;
     align-items: center;
 }
-.Pokemon img,.Moemon img,.Rule34 img{
+.Pokemon img,.Moemon img,.Anilist img{
     height: 30px;
 }
 nav a h2:hover{

@@ -36,8 +36,9 @@ nav a:hover{
 .container+.images, img{
     position: absolute;
     display: inline-flex;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .images+.name{
@@ -46,78 +47,148 @@ nav a:hover{
     display: none;
     min-width: 100px;
     width: 150px;
-    bottom: -205px;
-    font-size: large;
-    left: calc(50px - -10px);
+    bottom: -100px;
+    padding-left: 10px;
 }
 .images:hover+.name,.name:hover{
     display: flex;
-    /* justify-content: center; */
 }
 
-.container{
-    background: #202020;
+.images:hover{
+    transform: translateY(-5px);
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    background: #202020; /* Color sólido de fondo */
+    z-index: -1; /* Colocar el pseudo-elemento detrás de los elementos internos */
+    
+}
+
+.container {
+    position: relative; /* Asegurarse de que el contenedor sea relativo para que el pseudo-elemento absoluto funcione correctamente */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    height: 100vh;
+    min-height: 100vh; /* Usar min-height en lugar de height para evitar desplazamientos cuando el contenido crece */
 }
+
 
 .bulbasaur{
     background: #6EA598;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 .ivysaur{
     background: #89C7CD;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 .venusaur{
     background: #46A2A3;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 
 .charmander{
     background: #F4B186;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 .charmeleon{
     background: #EF8A78;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 .charizard{
     background: #FAA86B;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 
 .squirtle{
     background: #83C6D5;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 .wartortle{
     background: #B6C6E7;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 .blastoise{
     background: #84ACD8;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.chikorita{
+    background: #CFE0A9;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.bayleef{
+    background: #F9E49C;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.meganium{
+    background: #B6D58B;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.cyndaquil{
+    background: #EED9A2;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.quilava{
+    background: #FDE39F;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.typhlosion{
+    background: #FFEA9E;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.totodile{
+    background: #67C1CC;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.croconaw{
+    background: #7DC7D1;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.feraligatr{
+    background: #65CAE9;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }

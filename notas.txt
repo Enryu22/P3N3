@@ -6,6 +6,9 @@ etqiuetas que no llevan cierre
 
 Usar {span} para resaltar cosas
 
+Iconos:
+https://fonts.google.com/icons
+
 Flexbox:
 https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
 

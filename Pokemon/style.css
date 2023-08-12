@@ -19,27 +19,40 @@ nav a:hover{
     color:gray;
 }
 .pokeball{
+    position: absolute;
     display: flex;
     align-items: center;
 }
-.pokeball img{
-    height: 30px;
-    width: 30px;
-}
-
-img{
-    width: 200px;
-    height: 200px;
+.pokeball-img, img{
+    position: relative;
+    height: 20px;
+    width: 20px;
 }
 .title{
     color: white;
     text-align: center;
 }
-.name{
-    text-align: center;
-    margin: 0;
+
+.container+.images, img{
+    position: absolute;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+}
+
+.images+.name{
+    position: relative;
     color: white;
+    display: none;
+    min-width: 100px;
+    width: 150px;
+    bottom: -205px;
     font-size: large;
+    left: calc(50px - -10px);
+}
+.images:hover+.name,.name:hover{
+    display: flex;
+    /* justify-content: center; */
 }
 
 .container{
@@ -48,9 +61,8 @@ img{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
     height: 100vh;
-    position: relative;
 }
 
 .bulbasaur{
@@ -78,14 +90,12 @@ img{
     height: 200px;
     border-radius: 15px;
 }
-
 .charmeleon{
     background: #EF8A78;
     width: 200px;
     height: 200px;
     border-radius: 15px;
 }
-
 .charizard{
     background: #FAA86B;
     width: 200px;
@@ -99,14 +109,12 @@ img{
     height: 200px;
     border-radius: 15px;
 }
-
 .wartortle{
     background: #B6C6E7;
     width: 200px;
     height: 200px;
     border-radius: 15px;
 }
-
 .blastoise{
     background: #84ACD8;
     width: 200px;

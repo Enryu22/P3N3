@@ -40,15 +40,23 @@ nav a:hover{
     height: 100px;
     transition: transform 0.3s ease-in-out;
 }
-
-.images+.name{
+.pokemon {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.images+.name {
+    background: linear-gradient(360deg, #202020, transparent);
+    width: 100%;
+    padding: 5px;
     position: relative;
     color: white;
     display: none;
-    min-width: 100px;
-    width: 150px;
-    bottom: -100px;
-    padding-left: 10px;
+    justify-content: center;
+    margin-top: auto;
 }
 .images:hover+.name,.name:hover{
     display: flex;
@@ -72,123 +80,84 @@ nav a:hover{
 
 .container {
     position: relative; /* Asegurarse de que el contenedor sea relativo para que el pseudo-elemento absoluto funcione correctamente */
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: auto;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
     min-height: 100vh; /* Usar min-height en lugar de height para evitar desplazamientos cuando el contenido crece */
 }
 
-
-.bulbasaur{
+#bulbasaur{
     background: #6EA598;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.ivysaur{
+#ivysaur {
     background: #89C7CD;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.venusaur{
+
+#venusaur {
     background: #46A2A3;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
 
-.charmander{
+#charmander {
     background: #F4B186;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.charmeleon{
+
+#charmeleon {
     background: #EF8A78;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.charizard{
+
+#charizard {
     background: #FAA86B;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
 
-.squirtle{
+#squirtle {
     background: #83C6D5;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
-}
-.wartortle{
-    background: #B6C6E7;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
-}
-.blastoise{
-    background: #84ACD8;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
 
-.chikorita{
+#wartortle {
+    background: #B6C6E7;
+}
+
+#blastoise {
+    background: #84ACD8;
+}
+
+#chikorita {
     background: #CFE0A9;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.bayleef{
+
+#bayleef {
     background: #F9E49C;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.meganium{
+
+#meganium {
     background: #B6D58B;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.cyndaquil{
+
+#cyndaquil {
     background: #EED9A2;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.quilava{
+
+#quilava {
     background: #FDE39F;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.typhlosion{
+
+#typhlosion {
     background: #FFEA9E;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.totodile{
+
+#totodile {
     background: #67C1CC;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.croconaw{
+
+#croconaw {
     background: #7DC7D1;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
-.feraligatr{
+
+#feraligatr {
     background: #65CAE9;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
 }
+

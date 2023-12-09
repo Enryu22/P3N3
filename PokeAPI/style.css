@@ -1,0 +1,81 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+header nav{
+    background-color: #202020;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: gray;
+}
+.pokeball{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.pokeball-img, img{
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 40px;
+}
+.search-bar:focus-within{
+    border: solid 1p #aaa;
+    box-shadow: 0px 2px 5px #0b1622;
+}
+.search-bar, input{
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.2vw;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+.search-bar,.actions{
+    display: flex;
+    gap: 5px;
+}
+.search-bar,button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 2vw;
+    color: #ccc;
+}
+.search-bar,.actions, button:hover{
+    color: #0b1622;
+}

@@ -34,3 +34,9 @@ nav a h2:hover{
         flex-direction: column;
     }
 }
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}

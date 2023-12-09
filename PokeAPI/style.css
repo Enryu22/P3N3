@@ -41,3 +41,10 @@ nav a:hover{
     text-align: center;
 }
 
+p{
+    color: white;
+}
+img{
+    height: 98px;
+    width: 98px;
+}

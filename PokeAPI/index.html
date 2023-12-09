@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="pokeball.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -20,6 +21,11 @@
     </header>
     <hr>
     <h1 class="title">PokeAPI</h1>
-    <script src="script.js"></script>
+    <hr>
+    <label for="pokemonInput">Ingrese el número del Pokémon:</label>
+    <input type="text" id="pokemonInput" placeholder="Ej. 25">
+    <button onclick="buscarPokemon()">Buscar</button>
+    <div id="resultadoPokemon"></div>
+
 </body>
 </html>
